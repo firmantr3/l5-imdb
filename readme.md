@@ -1,6 +1,6 @@
 # L5Imdb
 
-[![Latest Version on Packagist][ico-version]][https://packagist.org/packages/firmantr3/l5imdb]
+[![Latest Version on Packagist][1.0.0]][https://packagist.org/packages/firmantr3/l5imdb]
 
 This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
 
