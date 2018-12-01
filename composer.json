@@ -23,16 +23,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Firmantr3\\L5Imdb\\": "src/"
+            "firmantr3\\L5Imdb\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Firmantr3\\L5Imdb\\L5ImdbServiceProvider"
+                "firmantr3\\L5Imdb\\L5ImdbServiceProvider"
             ],
             "aliases": {
-                "L5Imdb": "Firmantr3\\L5Imdb\\Facades\\L5Imdb"
+                "L5Imdb": "firmantr3\\L5Imdb\\Facades\\L5Imdb"
             }
         }
     }
