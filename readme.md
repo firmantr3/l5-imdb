@@ -28,7 +28,7 @@ Please see the [changelog](changelog.md) for more information on what has change
 // search movies
 \L5Imdb::searchTitle('Deadpool')->all();
 
-// search movies
+// search actor/actress
 \L5Imdb::searchPerson('Dwayne Johnson')->all();
 
 ```
