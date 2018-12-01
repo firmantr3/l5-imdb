@@ -1,0 +1,44 @@
+{
+    "name": "firmantr3/l5imdb",
+    "description": ":description",
+    "license": "license",
+    "authors": [
+        {
+            "name": "Firman Taruna Nugraha",
+            "email": "firmantr3@gmail.com",
+            "homepage": "https://github.com/firmantr3"
+        }
+    ],
+    "homepage": "https://github.com/firmantr3/l5imdb",
+    "keywords": ["Laravel", "L5Imdb"],
+    "require": {
+        "illuminate/support": "~5",
+        "imdbphp/imdbphp": "^6.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Firmantr3\\L5Imdb\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Firmantr3\\L5Imdb\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Firmantr3\\L5Imdb\\L5ImdbServiceProvider"
+            ],
+            "aliases": {
+                "L5Imdb": "Firmantr3\\L5Imdb\\Facades\\L5Imdb"
+            }
+        }
+    }
+}
