@@ -16,10 +16,21 @@ $ composer require firmantr3/l5imdb
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
 
-## Testing
+## Examples
 
-``` bash
-$ composer test
+```php
+// get movie data by id
+\L5Imdb::title('0944947')->all(); // game of throne
+
+// get actor/actress data by id
+\L5Imdb::person('1785339')->all() // rami malek
+
+// search movies
+\L5Imdb::searchTitle('Deadpool')->all();
+
+// search movies
+\L5Imdb::searchPerson('Dwayne Johnson')->all();
+
 ```
 
 ## Contributing
