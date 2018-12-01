@@ -1,7 +1,7 @@
 {
     "name": "firmantr3/l5imdb",
-    "description": ":description",
-    "license": "license",
+    "description": "A Laravel 5 PHP library for retrieving film and TV information from IMDb",
+    "license": "MIT",
     "authors": [
         {
             "name": "Firman Taruna Nugraha",
@@ -10,7 +10,7 @@
         }
     ],
     "homepage": "https://github.com/firmantr3/l5imdb",
-    "keywords": ["Laravel", "L5Imdb"],
+    "keywords": ["Laravel", "L5Imdb", "IMDB", "Scrape"],
     "require": {
         "illuminate/support": "~5",
         "imdbphp/imdbphp": "^6.1"
@@ -24,11 +24,6 @@
     "autoload": {
         "psr-4": {
             "Firmantr3\\L5Imdb\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Firmantr3\\L5Imdb\\Tests\\": "tests"
         }
     },
     "extra": {
